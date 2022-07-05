@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+	font-family: 'Sf Pro';
+	src: url('fontes/SFPRODISPLAYREGULAR.OTF');
+}
+
+body {
+	width: 94%;
+	height: 94vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+input {
+	color: #d8d8d8;
+	padding: 17px;
+	outline: none;
+	font-size: 23px;
+	font-family: 'Sf Pro', Arial, Helvetica, sans-serif;
+	border-radius: 25%;
+	text-align: center;
+	justify-items: center;
+	justify-content: center;
+	border: none;
+	margin-bottom: 5px;
+	margin-right: 3px;
+}
+
+
+.main {
+	display: inline-block;
+}
+
+.num {
+	width: 54px;
+	height: 57px;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+}
+
+.num0 {
+	width: 116px;
+	height: 57px;
+	border-radius: 23% 23% 23% 23% / 51% 51% 51% 51% ; 
+	border: none;
+	cursor: pointer;
+	text-align: left;
+
+}
+
+.text {
+	width: 205px;
+	height: 26px;
+	border-radius: 22px;
+	letter-spacing: 2px;
+	text-align: right;
+	margin-bottom: 12px;
+	font-size: 30px;
+	background-color: black;
+}
+
+.maincolor {
+	background-color: rgb(52, 52, 52);
+}
+
+.blue {
+	background-color: rgb(255, 148, 0);
+}
+
+.pin {
+	background-color: rgb(255, 148, 0);
+}
+
+.gre {
+	background-color: rgb(255, 148, 0);
+}
+
+.pur {
+	background-color: rgb(255, 148, 0);
+}
+
+.ora {
+	background-color: rgb(255, 148, 0);
+}
+
+.gra {
+	background-color: rgb(165, 165, 165);
+	color: black;
+}
+
+.d {
+	font-size: 15px;
+	padding: 25px;
+	text-align: justify;
+}
